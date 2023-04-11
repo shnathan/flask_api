@@ -7,9 +7,9 @@ from random import uniform as rnd
 from model import Person
 test=[]
 app = Flask(__name__)
-@app.route('/api',methods=['GET','POST'])
-def api():
-    return {"hello":"hai"}
+@app.route('/')
+def hello_world():
+    return "hello,hai"
 
 @app.route('/processUserInfo/<string:userInfo>',methods=['GET','POST'])
 def processUserInfo(userInfo):
