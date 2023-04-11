@@ -3,3 +3,4 @@ requests
 random2
 bs4
 uvicorn
+gunicorn
