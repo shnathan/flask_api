@@ -100,7 +100,7 @@ class Person:
 app = Flask(__name__)
 @app.route('/api',methods=['GET','POST'])
 def api():
-    return test
+    return {"hello":"hai"}
 
 @app.route('/processUserInfo/<string:userInfo>',methods=['GET','POST'])
 def processUserInfo(userInfo):
