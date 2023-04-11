@@ -1,4 +1,4 @@
 flask
 requests
-random
+random2
 bs4
